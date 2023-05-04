@@ -1,6 +1,4 @@
 
-
-
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -24,8 +22,17 @@ button {
 }
 
 div#navbar-left img {
-    width: 8em;
+    float: left;
+    width: 142px;
+    height: 50px;
+    padding: 14px 100px;
+    display: flex;
 }
+
+div#navbar-right {
+    justify-content: space-between;
+}
+
 
 @media (width >= 2500px) {
     html {
